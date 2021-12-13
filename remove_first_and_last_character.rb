@@ -6,6 +6,7 @@ def remove_char(s)
     amount_char = characters.length
     characters.delete_at(amount_char-1)
     characters.join
+    puts characters
 end
 
 remove_char('eloquent')
