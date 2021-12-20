@@ -7,7 +7,7 @@ def find_short(s)
         lengths << word.length
     end
     lengths.sort!
-    l = [lengths[0]].to_i
+    l = [lengths[0]].join.to_f
     puts l
 end
 
