@@ -2,7 +2,7 @@
 
 def find_short(s)
     arr = s.downcase.split(" ")
-    lengths = ()
+    lengths = []
     arr.each do |word|
         lengths << word.length
     end
