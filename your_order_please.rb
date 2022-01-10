@@ -6,7 +6,8 @@
 
 def order(words)
     word = words.split(" ")
-    return word.sort_by { |s| s.scan(/\d+/).first.to_i }
+    answer = word.sort_by { |s| s.scan(/\d+/).first.to_i }
+    answer.join(" ")
 end
 
 puts order("is2 Thi1s T4est 3a")
